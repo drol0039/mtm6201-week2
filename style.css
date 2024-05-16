@@ -1,0 +1,42 @@
+body{
+    background: pink;
+    color: red;
+}
+
+.flex-container {
+    display: flex;
+
+    background: blue;
+    padding: 10px;
+
+
+    height: 300px;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-item {
+    background: white;
+    padding: 10px;
+}
+.flex-item:first-child {
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+
+    background: green;
+    /* order: 54; */
+}
+
+.flex-item:last-child {
+    background: orange;
+    /* order: 2; */
+}
+
+.special {
+    background: darkred;
+    order: 5;
+
+}
